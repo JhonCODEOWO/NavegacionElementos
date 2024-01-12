@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Recorrer overflow - Con javascript</title>
+</head>
+<link rel="stylesheet" href="CSS/normalize.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+<body>
+    <h1>Elemento flex overflow con controles de desplazamiento</h1>
+    <div class="father-all">
+
+        <button class="overflow-button left" id="btn-left"> 
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-left" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 12l14 0" />
+                <path d="M5 12l4 4" />
+                <path d="M5 12l4 -4" />
+              </svg>
+        </button>
+        <button class="overflow-button right" id="btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 12l14 0" />
+                <path d="M15 16l4 -4" />
+                <path d="M15 8l4 4" />
+              </svg>
+        </button>
+
+                <div class="overflow-father" id="overflow-takecontrol">
+                    <div>
+                        <a
+                            href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio">
+                            <img src="images/b_itssnp_plataformatrans.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://transparencia.puebla.gob.mx/">
+                            <img src="images/b_itssnp_transparenciaestatal.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://drive.google.com/drive/folders/1S_dTAxfQcoMHOPKJvfOgPCchwfmgkLWU">
+                            <img src="images/pbr_itssnp.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://drive.google.com/drive/folders/1vodI2lNhFvIXpmrlIqTFIBNJUHwnAUku">
+                            <img src="images/b_itssnp_armonizacionc.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.itssnp.edu.mx/downloads/IRC%202012-2018%20DEF.pdf">
+                            <img src="images/b_itssnp_irc.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.itssnp.edu.mx/downloads/Aviso_Proteccion_Datos_PersonalesACT.pdf">
+                            <img src="images/b_itssnp_protecciondatos.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.itssnp.edu.mx/index.php/conocenos/avisos-de-privacidad">
+                            <img src="images/b_itssnp_avisosprivacidad.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="index.php/conocenos/contraloria-social">
+                            <img src="images/logo_contaloriasocial.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

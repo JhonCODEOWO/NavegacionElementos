@@ -1,0 +1,81 @@
+.father-all {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .father-all {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.father-all button:hover {
+  cursor: pointer;
+}
+
+.father-all button {
+  background-color: transparent;
+  border: unset;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.overflow-father {
+  /* position: relative; */
+  display: flex;
+  column-gap: 40px;
+  width: 100%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+  .overflow-father {
+    /* width: 50%; */
+    /* margin: 0 auto; */
+  }
+}
+
+.overflow-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overflow-button.left {
+  left: 8px;
+}
+
+@media (min-width: 768px) {
+  .overflow-button.left {
+    left: 0;
+  }
+}
+
+.overflow-button.right {
+  left: 99%;
+  right: 8px;
+}
+
+@media (min-width: 768px) {
+  .overflow-button.right {
+    right: 0;
+  }
+}
+
+.carrusel .buttons button {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media (min-width: 768px){
+    .carrusel .buttons button{
+        font-size: 24px;
+    }
+}
